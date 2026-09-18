@@ -19,6 +19,7 @@ header {
     border: #E50914 solid 20px;
     border-radius: 30px;
     background-color: #E50914;
+    opacity: 1.9;
     color: #FFFFFF;
 }
 .grid-1 {
