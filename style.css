@@ -129,6 +129,7 @@ img {
     margin: 0 !important;
     height: auto !important;
     background: #000 !important;
+    line-height: 1.8;
 }
 .my-footer h3 {
     color: #E50914;
@@ -173,10 +174,12 @@ img {
         border-radius: 10px;
         /* margin-bottom: 100px; */
     }
-    .foot-box h4 {
-        background: #000 !important;
-    }
-    .foot-box li {
-        background: #000 !important;
+    
+    .my-footer ul, .my-footer li {
+        list-style: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        background: transparent !important;
+        border: none;
     }
     
