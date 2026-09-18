@@ -110,34 +110,73 @@ img {
             /* background-color: gold; */
         }
     }
-    footer {
-        background: #000;
-        color: #aaa;
-        padding: 30px;
-        text-align: center;
+.my-footer {
+    background: #000 !important;
+    color: #aaa;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: left;
+}
+
+.my-footer .foot-box {
+    background: transparent !important;
+    width: 200px;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+    background: #000 !important;
+}
+.my-footer h3 {
+    color: #E50914;
+    background: #000 !important;
+}
+.my-footer h4 {
+    color: #fff;
+    background: #000 !important;
+}
+.my-footer a {
+    color: #aaa;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    background: #000 !important;
+}
+.my-footer input {
+    padding: 8px;
+    background: #222;
+    color: white;
+    /* border: none; */
+    cursor: pointer;
+    background: #000 !important;
+}
+.my-footer .copy {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #222;
+    padding-top: 10px;
+    font-size: 12px;
+    background: #000 !important;
+}
+.my-footer p {
+    background: #000 !important;}
+    .foot-box {
+        background: #000 !important;
     }
-    footer h3 {
-        color: #E50914;
-    }
-    footer h4 {
-        color: #fff;
-        margin-top: 20px;
-    }
-    footer a {
-        color: #aaa;
-        text-decoration: none;
-        display: block;
-        margin: 5px 0;
-    }
-    footer input {
-        padding: 8px;
-        background: #1E1E1E;
+    .foot-box button {
+        background: #000 !important;
         color: white;
-        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        /* margin-bottom: 100px; */
     }
-    footer button {
-        padding: 8px 12px;
-        background: #E50914;
-        color: white;
-        border: none;
+    .foot-box h4 {
+        background: #000 !important;
     }
+    .foot-box li {
+        background: #000 !important;
+    }
+    
