@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1E1E1E;
+        background-color: #1E1E1E;
 }
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -26,6 +26,7 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px 10%;
     gap: 20px;
+
 }
 img {
     width: 100%;
@@ -42,6 +43,8 @@ img {
         border-radius: 10px;
         margin-top: 10px;
         color: white;
+    /* background-color: #1E1E1E; */
+
     }
     p {
         margin-top: 10px;
@@ -106,4 +109,35 @@ img {
             /* margin: 20px; */
             /* background-color: gold; */
         }
+    }
+    footer {
+        background: #000;
+        color: #aaa;
+        padding: 30px;
+        text-align: center;
+    }
+    footer h3 {
+        color: #E50914;
+    }
+    footer h4 {
+        color: #fff;
+        margin-top: 20px;
+    }
+    footer a {
+        color: #aaa;
+        text-decoration: none;
+        display: block;
+        margin: 5px 0;
+    }
+    footer input {
+        padding: 8px;
+        background: #1E1E1E;
+        color: white;
+        border: none;
+    }
+    footer button {
+        padding: 8px 12px;
+        background: #E50914;
+        color: white;
+        border: none;
     }
