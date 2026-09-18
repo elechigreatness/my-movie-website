@@ -10,7 +10,7 @@ header {
     text-align: center;
     color: #FFFFFF;
     background-color: #1A1A1A;
-    border: 10px blue solid;
+    border-bottom: 3px blue solid;
     /* border-radius: 30px; */
 }
 .title {
